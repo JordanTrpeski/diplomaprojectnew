@@ -1,0 +1,7 @@
+{
+  "name": "diplomaprojectnew",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
