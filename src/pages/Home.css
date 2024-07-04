@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-    --ion-background-color: white;
+    --ion-background-color: #F2F5FC;
 }
