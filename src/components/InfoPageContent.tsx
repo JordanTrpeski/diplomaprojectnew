@@ -26,7 +26,7 @@ const InfoPageContent = () => {
             <div className="my-6">
               <div className="bg-[#9E9BC7] px-4 py-2 rounded-3xl flex items-center justify-between">
                 <h2 className="text-lg text-[#ffffff] font-semibold">Track Your Weekly Progress</h2>
-                <button className="text-[#A3A0CA] bg-white py-[6px] rounded-xl px-7">View Now</button>
+               <a href="/homepage"> <button className="text-[#A3A0CA] bg-white py-[6px] rounded-xl px-7">View Now</button> </a>
               </div>
             </div>
             <div>

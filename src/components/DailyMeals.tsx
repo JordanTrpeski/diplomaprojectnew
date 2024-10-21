@@ -17,11 +17,13 @@ const DailyMeals = () => {
                 </div>
                             <div className="flex items-center space-x-4 justify-center">
                 <div className="text-[#9DA8C3] text-[22px] "></div>
-                <div
+                
+                
+                <a href='foodtracker'>   <div
                     className="text-white text-[22px] font-bold from-[#9FE860] bg-gradient-to-r to-[#50CE3B] p-1 rounded-full cursor-pointer"
                 >
-                    <img className="w-4 h-4" src="/svg/plus.svg" alt="Plus" />
-                </div>
+                 <img className="w-4 h-4" src="/svg/plus.svg" alt="Plus" /> 
+                </div></a>
             </div>
             </div>
 

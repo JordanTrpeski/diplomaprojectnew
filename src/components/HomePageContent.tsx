@@ -31,6 +31,8 @@ const HomePageContent = () => {
           <img className="w-6 h-6" src="/svg/dot.svg" alt="Dot" />
         </div>
       </div>
+      <WaterIntake></WaterIntake>
+      <DailyMeals></DailyMeals>
       <Footer />
     </div>
   );
