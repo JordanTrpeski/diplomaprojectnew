@@ -42,9 +42,12 @@ function FoodTracker() {
   return (
     <div className="b h-screen flex flex-col">
       <div className="flex justify-between items-center p-4">
+
+        <a href='/homepage' >
         <div className="bg-gray-200 rounded-full p-2">
           <img className="w-6 h-6" src="/svg/left.svg" alt="left" />
         </div>
+        </a>
         <div className="flex justify-center items-center">
           <div className="text-[#000000] text-[18px] font-semibold mr-2">Breakfast</div>
           <div className='text-gray-400 text-[12px] font-regular'>{totalCalories} kcal</div>
