@@ -31,7 +31,6 @@ const HomePageContent = () => {
           <img className="w-6 h-6" src="/svg/dot.svg" alt="Dot" />
         </div>
       </div>
-        <FoodTracker></FoodTracker>
       <Footer />
     </div>
   );
