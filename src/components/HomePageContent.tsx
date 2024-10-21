@@ -2,6 +2,8 @@ import React from "react";
 import Calendar from "./Calendar";
 import Footer from "./Footer";
 import WaterIntake from "./WaterIntake";
+import DailyMeals from "./DailyMeals";
+import FoodTracker from "./FoodTracker";
 
 
 const formatDate = () => {
@@ -21,15 +23,15 @@ const HomePageContent = () => {
   return (
     <div className=" mt-2">
       <div className="flex items-center justify-evenly ">
-        <div className="bg-gray-400 rounded-full p-2">
+        <div className="bg-gray-200 rounded-full p-2">
           <img className="w-6 h-6" src="/svg/calendar.svg" alt="Calendar" />
         </div>
         <div className="text-black">{currentDate}</div>
-        <div className="bg-gray-400 rounded-full p-2">
+        <div className="bg-gray-200 rounded-full p-2">
           <img className="w-6 h-6" src="/svg/dot.svg" alt="Dot" />
         </div>
       </div>
-        <WaterIntake></WaterIntake>
+        <FoodTracker></FoodTracker>
       <Footer />
     </div>
   );
