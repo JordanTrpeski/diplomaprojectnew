@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import WaterIntake from "./WaterIntake";
 import DailyMeals from "./DailyMeals";
 import FoodTracker from "./FoodTracker";
+import ChartNutrients from "./ChartNutrients";
 
 
 const formatDate = () => {
@@ -31,8 +32,12 @@ const HomePageContent = () => {
           <img className="w-6 h-6" src="/svg/dot.svg" alt="Dot" />
         </div>
       </div>
-      <WaterIntake></WaterIntake>
-      <DailyMeals></DailyMeals>
+    <ChartNutrients></ChartNutrients>
+    <div className="max-h-60 overflow-y-auto ">
+    <WaterIntake></WaterIntake>
+    <DailyMeals></DailyMeals>
+    <DailyMeals></DailyMeals>
+    </div>
       <Footer />
     </div>
   );
